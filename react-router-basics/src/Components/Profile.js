@@ -5,7 +5,7 @@ const Profile = (props) => {
   return (
     <div>
       <h2>User Profile</h2>
-      <Link to="/profile/10">Edit Profile</Link>
+      <Link to="/Profile/10">Edit Profile</Link>
     </div>
   );
 };
