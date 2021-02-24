@@ -5,6 +5,8 @@ import Contact from './Components/Contact';
 import NotFound from './Components/NotFound';
 import NavBar from './Components/NavBar';
 import { Switch, Route } from 'react-router-dom';
+import Profile from './Components/Profile';
+import EditProfile from './Components/EditProfile';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/Contact" component={Contact} />
         <Route path="/About" component={About} />
+        <Route path="/Profile" component={Profile} />
+        <Route path="/Profile/:id" component={EditProfile} />
         <Route component={NotFound} />
       </Switch>
     </div>

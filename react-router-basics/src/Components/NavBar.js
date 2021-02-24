@@ -10,12 +10,17 @@ const NavBar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/about" activeClassName="active">
+        <NavLink to="/About" activeClassName="active">
           About
         </NavLink>
       </li>
       <li>
-        <NavLink to="/contact" activeClassName="active">
+        <NavLink to="/Profile" activeClassName="active">
+          Profile
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/Contact" activeClassName="active">
           Contact
         </NavLink>
       </li>
