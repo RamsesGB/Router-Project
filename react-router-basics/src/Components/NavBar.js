@@ -1,14 +1,23 @@
+import { NavLink } from 'react-router-dom';
+import '.././App.css';
+
 const NavBar = () => {
   return (
     <ul className="navbar">
       <li>
-        <a href="/">Home</a>
+        <NavLink exact to="/" activeClassName="active">
+          Home
+        </NavLink>
       </li>
       <li>
-        <a href="/about">About</a>
+        <NavLink to="/about" activeClassName="active">
+          About
+        </NavLink>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <NavLink to="/contact" activeClassName="active">
+          Contact
+        </NavLink>
       </li>
     </ul>
   );
